@@ -5,7 +5,7 @@ import Footer from '@/app/components/Footer';
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body id="bringer-main">
+			<body id="bringer-main" style={{ backgroundColor: 'black' }}>
 				<Navbar />
 				<div style={{ marginTop: '100px' }}>{children}</div>
 				<div style={{ width: '100vw' }}>
