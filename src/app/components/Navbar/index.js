@@ -101,7 +101,7 @@ const navbar = () => {
 				</div>
 				{/* <!-- Header Button --> */}
 				<div className="bringer-header-rp">
-					<Link href="contact-/us" className="bringer-button">
+					<Link href="contact" className="bringer-button">
 						Get in Touch
 					</Link>
 				</div>
