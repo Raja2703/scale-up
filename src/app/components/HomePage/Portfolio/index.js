@@ -32,15 +32,22 @@ const portfolioItems = [
 const Index = () => {
 	const { scrollYProgress } = useScroll();
 
-	// Transform for the right side to create a parallax effect
+	// Parallax Effect only on Right Side
 	const yTransform = useTransform(scrollYProgress, [0, 1], [0, 0]);
 
 	return (
 		<section className="hide-on-mobile-tab">
-			<div className="stg-row stg-large-gap">
+			<div className="stg-row stg-large-gap" style={{ position: 'relative' }}>
 				{/* Left Side - Stays Fixed */}
-				<div className="stg-col-6 stg-tp-bottom-gap-l">
-					<div className="bringer-sticky-block sticky top-50">
+				<div className="stg-col-6">
+					<div
+						className="bringer-sticky-block"
+						style={{
+							position: 'sticky',
+							top: '20%',
+							height: '100vh',
+						}}
+					>
 						<h2>Our Portfolio</h2>
 						<p className="bringer-large-text">We are proud of our work, and we are always looking for new challenges. Take a look at some of our recent creative portfolio works.</p>
 						<div className="align-right">
@@ -52,10 +59,9 @@ const Index = () => {
 				</div>
 
 				{/* Right Side - Scrolls with Motion */}
-				<div className="stg-col-6">
+				<div className="stg-col-6" style={{ height: '100%', overflow: 'hidden' }}>
 					<motion.div style={{ y: yTransform }}>
 						<div className="bringer-grid-1col bringer-tp-grid-2cols stg-normal-gap bringer-parallax-media">
-							{/* Dynamically Rendering Portfolio Items */}
 							{portfolioItems.map((item, index) => (
 								<div key={index} className="bringer-block bringer-portfolio-card">
 									<div className="bringer-portfolio-card-image">

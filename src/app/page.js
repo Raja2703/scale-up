@@ -17,7 +17,6 @@ import Counters from '@/app/components/HomePage/Counters';
 import Portfolio from '@/app/components/HomePage/Portfolio';
 import Testimonials from '@/app/components/HomePage/Testimonials';
 import Partner from '@/app/components/HomePage/Partner';
-import Footer from '@/app/components/Footer';
 
 export default function Home() {
 	return (
@@ -34,7 +33,6 @@ export default function Home() {
 				<Testimonials />
 				<Partner />
 			</div>
-			{/* <Footer /> */}
 		</div>
 	);
 }
