@@ -18,9 +18,21 @@ const index = () => {
 				{/* <!-- Section Title --> */}
 				<div className="stg-row stg-bottom-gap-l">
 					<div className="stg-col-8">
-						<motion.h1 className="stg-bottom-gap" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: 0.2 }} viewport={{ once: true }}>
-							🚀 Ignite Your Future with Scale Us
-						</motion.h1>
+						<motion.p
+							style={{ fontSize: '5rem', fontWeight: '700', color: 'white' }}
+							className="stg-bottom-gap"
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							transition={{ duration: 0.4, delay: 0.2 }}
+							viewport={{ once: true }}
+						>
+							🚀 Ignite Your Future
+							<br />
+							<br />
+							<br />
+							<br />
+							with Scale Us
+						</motion.p>
 					</div>
 					{/* <div className="stg-col-4"></div> */}
 				</div>

@@ -59,7 +59,7 @@ const index = () => {
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
-						transition={{ duration: 0.6, delay: index * 0.2 }}
+						transition={{ duration: 0.6, delay: (index * 0.2) % index }}
 						viewport={{ once: true }}
 						key={index}
 						className="bringer-block stg-aspect-square stg-vertical-space-between"
@@ -72,7 +72,13 @@ const index = () => {
 					</motion.div>
 				))}
 
-				<div className="bringer-masked-block bringer-grid-more-masked">
+				<motion.div
+					initial={{ opacity: 0, y: 20 }}
+					whileInView={{ opacity: 1, y: 0 }}
+					transition={{ duration: 0.6, delay: 1.5 }}
+					viewport={{ once: true }}
+					className="bringer-masked-block bringer-grid-more-masked"
+				>
 					<div className="bringer-block stg-aspect-square stg-vertical-space-between is-accented bringer-masked-media">
 						<h5>
 							Get in Touch<span className="bringer-accent">.</span>
@@ -85,7 +91,7 @@ const index = () => {
 						</span>
 					</div>
 					<Link href="contact-us.html" style={{ backgroundColor: 'transparent' }}></Link>
-				</div>
+				</motion.div>
 			</div>
 
 			{/* <!-- Partners Section --> */}

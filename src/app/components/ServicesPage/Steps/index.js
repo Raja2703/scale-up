@@ -23,7 +23,7 @@ const index = () => {
 			>
 				<div className="stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap">
 					<div className="bringer-parallax-media">
-						<Image className="bringer-lazy" src="/img/inner-pages/service-details01.jpg" alt="Branding 01" width="960" height="960" />
+						<Image className="bringer-lazy" src="/img/inner-pages/old img/service-details01.jpg" alt="Branding 01" width="960" height="960" />
 					</div>
 				</div>
 				<div className="stg-col-6 stg-tp-col-6">
@@ -38,11 +38,12 @@ const index = () => {
 				whileInView={{ opacity: 1, x: 0 }}
 				transition={{ duration: 0.4, delay: 0.2 }}
 				viewport={{ once: true }}
+				style={{ justifyContent: 'flex-start' }}
 				className="stg-row stg-bottom-gap stg-valign-middle stg-tp-row-reverse stg-m-bottom-gap-l"
 			>
 				<div className="stg-col-3 stg-tp-col-6 stg-m-bottom-gap">
 					<div className="bringer-parallax-media">
-						<Image className="bringer-lazy" src="/img/inner-pages/service-details02.jpg" alt="Branding 02" width="960" height="960" />
+						<Image className="bringer-lazy" src="/img/inner-pages/old img/service-details02.jpg" alt="Branding 02" width="960" height="960" />
 					</div>
 				</div>
 				<div className="stg-col-6 stg-tp-col-6">
@@ -62,7 +63,7 @@ const index = () => {
 			>
 				<div className="stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap">
 					<div className="bringer-parallax-media">
-						<Image className="bringer-lazy" src="/img/inner-pages/service-details03.jpg" alt="Branding 03" width="960" height="960" />
+						<Image className="bringer-lazy" src="/img/inner-pages/old img/service-details03.jpg" alt="Branding 03" width="960" height="960" />
 					</div>
 				</div>
 				<div className="stg-col-6 stg-tp-col-6">
@@ -77,11 +78,12 @@ const index = () => {
 				whileInView={{ opacity: 1, x: 0 }}
 				transition={{ duration: 0.4, delay: 0.2 }}
 				viewport={{ once: true }}
+				style={{ justifyContent: 'flex-start' }}
 				className="stg-row stg-bottom-gap stg-valign-middle stg-tp-row-reverse stg-m-bottom-gap-l"
 			>
 				<div className="stg-col-3 stg-tp-col-6 stg-m-bottom-gap">
 					<div className="bringer-parallax-media">
-						<Image className="bringer-lazy" src="/img/inner-pages/service-details04.jpg" alt="Step  04" width="960" height="960" />
+						<Image className="bringer-lazy" src="/img/inner-pages/old img/service-details04.jpg" alt="Step  04" width="960" height="960" />
 					</div>
 				</div>
 				<div className="stg-col-6 stg-tp-col-6">
@@ -95,7 +97,7 @@ const index = () => {
 			<motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.4, delay: 0.2 }} viewport={{ once: true }} className="stg-row stg-valign-middle">
 				<div className="stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap">
 					<div className="bringer-parallax-media">
-						<Image className="bringer-lazy" src="/img/inner-pages/service-details05.jpg" alt="Step  05" width="960" height="960" />
+						<Image className="bringer-lazy" src="/img/inner-pages/old img/service-details05.jpg" alt="Step  05" width="960" height="960" />
 					</div>
 				</div>
 				<div className="stg-col-6 stg-tp-col-6">

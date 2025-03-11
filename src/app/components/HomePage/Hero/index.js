@@ -10,11 +10,16 @@ const hero = () => {
 				{/* <!-- Main Row --> */}
 				<div className="bringer-hero-title-wrap">
 					{/* <!-- Title --> */}
-					<motion.h1 className="bringer-page-title" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 2 * 0.2 }} viewport={{ once: true }}>
-						Your Partner in
-						<br />
-						Digital Innovation
-					</motion.h1>
+					<motion.p
+						style={{ fontSize: '5rem', fontWeight: '700', color: 'white', lineHeight: 1 }}
+						className="bringer-page-title"
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, delay: 2 * 0.2 }}
+						viewport={{ once: true }}
+					>
+						Your Partner in Digital Innovation
+					</motion.p>
 					{/* <!-- Additional Media --> */}
 					<motion.div className="stg-m-hide" initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 2 * 0.2 }} viewport={{ once: true }}>
 						<Image className="bringer-lazy" src={'/img/home/home03-hero1.webp'} alt="Scale-Us-Hero" width={'550'} height={'310'} />

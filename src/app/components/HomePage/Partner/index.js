@@ -53,7 +53,9 @@ const index = () => {
 							{/* <!-- Title --> */}
 							<Image src={'/img/box2.svg'} width={'100'} height={'100'} />
 							<div style={{ position: 'absolute', display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between', padding: '2.5rem' }}>
-								<h1 className="bringer-page-title">Unleash your Creativity</h1>
+								<p style={{ fontSize: '5rem', fontWeight: '600', color: 'white', lineHeight: 1 }} className="bringer-page-title">
+									Unleash your Creativity
+								</p>
 								{/* <!-- Description --> */}
 								<p className="bringer-highlight">We help businesses and professionals showcase their work and connect with clients through innovative digital solutions.</p>
 							</div>

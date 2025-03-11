@@ -7,9 +7,16 @@ const index = () => {
 		<section className="backlight-bottom">
 			<div className="stg-row stg-bottom-gap-l">
 				<div className="stg-col-6 stg-offset-3 align-center">
-					<motion.h1 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: 0.2 }} viewport={{ once: true }} className="bringer-page-title">
+					<motion.p
+						style={{ fontSize: '5rem', fontWeight: '700', color: 'white', marginBottom: '3rem' }}
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.4, delay: 0.2 }}
+						viewport={{ once: true }}
+						className="bringer-page-title"
+					>
 						Get in Touch
-					</motion.h1>
+					</motion.p>
 					<motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: 0.3 }} viewport={{ once: true }} className="bringer-large-text">
 						We help businesses of all sizes achieve their goals. We believe every brand, big or small, deserves to shine.
 					</motion.p>

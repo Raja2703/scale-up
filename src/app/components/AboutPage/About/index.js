@@ -28,9 +28,16 @@ const index = () => {
 				<div className="stg-row stg-bottom-gap-l stg-m-bottom-gap-l">
 					<div className="stg-col-9 stg-tp-col-8 stg-m-col-12">
 						{/* <!-- Title --> */}
-						<motion.h1 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.2, delay: 0.2 }} viewport={{ once: true }} className="bringer-page-title">
+						<motion.p
+							style={{ fontSize: '5rem', fontWeight: '700', color: 'white', lineHeight: 1 }}
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							transition={{ duration: 0.2, delay: 0.2 }}
+							viewport={{ once: true }}
+							className="bringer-page-title"
+						>
 							Unleash Your Creativity And Bring IT to Reality
-						</motion.h1>
+						</motion.p>
 					</div>
 					<div className="stg-col-3 stg-tp-col-4 stg-m-col-12">
 						{/* <!-- Social Proof --> */}
